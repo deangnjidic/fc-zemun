@@ -38,6 +38,8 @@ li {
     display: inline;
 }
 
+/* Upper Content .upper, .uc */
+
 .upper-content {
     flex: 1;
     display: flex;
@@ -70,8 +72,80 @@ li {
     font-size: 26px;
     width: 160px;
     height: auto;
+    border-radius: 1px;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+}
+
+.mc-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.mc-top {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.mc-middle {
+    background-color: #E5E7EB;
+    padding: 100px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name {
+    text-align: right;
+    font-weight: 800;
+}
+
+.mc-lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+    background-color: #3882F6;
+    padding: 0 96px;
+    color: white;
+    width: 550px;
+    height: auto;
+    margin: 50px auto;
+}
+
+span {
+    font-weight: 600;
+}
+
+.button2 {
+    font-size: 20px;
+    width: 140px;
+    height: auto;
     border-radius: 10px;
     background-color: #3882F6;
     color: white;
+    border-color: white;
+    padding: 4px 0;
+    border-style:solid;
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 24px 0;
 }

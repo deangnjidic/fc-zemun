@@ -4,6 +4,10 @@ Project: Landing Page - TOP
 
 05/23/2023
 
-Started on html for landing page TOP project.
+Started on HTML for landing page TOP project.
 
-Did part of header and upper part of content of page.
+Did part of the header and upper part of the content of a page.
+
+
+06/03 Finished .css for the whole homepage.
+Will continue to add more context to the website, photos and adjust elements if needed.
