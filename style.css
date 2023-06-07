@@ -9,6 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding-top: 20px;
 }
 
 
@@ -51,7 +52,7 @@ li {
 .uc-right {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 50px;
 }
 
 .upper-image {
@@ -84,16 +85,26 @@ li {
     justify-content: center;
     align-items: center;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 26px;
     color: #1F2937;
+    margin: 12px;
 }
 
 .mc-top {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 36px;
+}
+.ls {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.mc-top img {
+    width: 75px;
+    height: auto;
 }
 
 .mc-middle {
@@ -148,4 +159,10 @@ footer {
     background-color: #1F2937;
     color: white;
     padding: 24px 0;
+}
+
+
+.logo img {
+    width: 200px;
+    height: auto;
 }
