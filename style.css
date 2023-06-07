@@ -96,12 +96,29 @@ li {
     gap: 24px;
     padding: 36px;
 }
+
 .ls {
     display: flex;
-    align-items: center;
-    padding: 12px;
+    gap: 20px;
 }
 
+.home, .away {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-weight: 700;
+    color: rgb(16, 82, 16);
+
+}
+
+.result {
+    display: flex;
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 900;
+}
 
 .mc-top img {
     width: 75px;
