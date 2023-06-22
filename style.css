@@ -18,22 +18,78 @@ ul {
     padding: 0;
 }
 
-.logo {
+.logo h2 {
     display: flex;
     padding-left: 20px;
     color: white;
+    align-items: center;
+}
+
+
+
+.logo img {
+    width: 150px;
+    height: auto;
 }
 
 .navigation {
-    padding: 0px 20px;
+    padding: 0px 60px;
+
 }
 
-
-a {
-    padding: 0 5px;
+.navigation a {
+    padding: 0 10px;
     text-decoration: none;
-    color: white;
+    color: rgb(32, 134, 32);
+    font-weight: 600;
+    font-size: 18px;
 }
+
+.squad:hover {
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(203, 219, 203);
+    font-weight: 600;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+}
+
+.schedule:hover {
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(203, 219, 203);
+    font-weight: 600;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+}
+
+.media:hover {
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(203, 219, 203);
+    font-weight: 600;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+}
+
+ .shop:hover {
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(203, 219, 203);
+    font-weight: 600;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+}
+
+.tickets:hover {
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(203, 219, 203);
+    font-weight: 600;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+}
+
 
 li {
     display: inline;
@@ -46,13 +102,15 @@ li {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 25px;
+
 }
 
 .uc-right {
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
+    justify-content:space-between;
+    padding-left: 0;
+    padding-right: 60px;
+    padding-bottom: 25px;
 }
 
 .upper-image {
@@ -67,17 +125,55 @@ li {
     flex-direction: column;
     padding: 25px;
     color: white;
+    align-items: center;
+}
+
+.top-h2 {
+    margin: 0;
+    color: rgb(32, 134, 32);
+}
+
+.h2-header {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.header-txt {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+
 }
 
 .button1 {
     font-size: 26px;
     width: 160px;
     height: auto;
-    border-radius: 1px;
+    border-radius: 10px;
     border-color: white;
     background-color: #3882F6;
     color: white;
+    font-weight: 500;
     border-style: solid;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+
+.button1:hover {
+    font-size: 26px;
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+    border-color: #3882F6;
+    background-color: white;
+    color: #3882F6;
+    font-weight: 500;
+    border-style: solid;
+    margin-top: 25px;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+
 }
 
 .mc-para {
@@ -163,6 +259,7 @@ li {
     color: #1a2535;
     margin: 0;
     padding: 10px 0;
+    text-decoration: none;
 }
 
 .quote-name {
@@ -178,29 +275,49 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 66px;
-    background-color: #3882F6;
-    padding: 0 96px;
+    gap: 56px;
+    background-color: #1F2937;
+    padding: 0 66px;
     color: white;
-    width: 550px;
+    width: 700px;
     height: auto;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
-span {
+.mc-lower-text {
+    padding: 10px 0;
+}
+
+.newsletter {
     font-weight: 600;
+    padding-bottom: 15px;
 }
 
 .button2 {
-    font-size: 20px;
-    width: 140px;
+    font-size: 24px;
+    width: 250px;
     height: auto;
     border-radius: 10px;
-    background-color: #3882F6;
+    background-color: #1F2937;
     color: white;
     border-color: white;
     padding: 4px 0;
     border-style:solid;
+}
+
+.button2:hover {
+    font-size: 24px;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border-color: #1F2937;
+    background-color: white;
+    color: #1F2937;
+    font-weight: 500;
+    border-style: solid;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+
 }
 
 footer {
@@ -209,11 +326,5 @@ footer {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 24px 0;
-}
-
-
-.logo img {
-    width: 200px;
-    height: auto;
+    padding: 10px 0;
 }
